@@ -61,6 +61,7 @@ li{
     color: rgb(145, 145, 145);
 }
 
+
 .container{
     position: absolute;
     height: 70%;
@@ -111,15 +112,189 @@ li{
 
 .paragraph_button button{
     margin-top: 70px;
-    width: 150px;
+    width: 175px;
     height: 50px;
-    background-color: rgb(5, 0, 24);
+    background-color: rgb(255, 115, 50);
+    border: none;
     color: white;
     font-size: 15px;
     font-family: sans-serif;
     font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.paragraph_button button:hover{
+    background-color: rgb(0, 0, 37);
 }
 
 .retro_paragraph{
     display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.retro_paragraph_text{
+    margin-left: 15px;
+    align-items: center;
+}
+
+.retro_paragraph img{
+    height: 125px;
+    width: 100px;
+}
+
+.retro_paragraph_text h2{
+    font-size: 40px;
+    color: rgb(145, 145, 145);
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.retro_paragraph_text h3{
+    font-size: 20px;
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.retro_paragraph_text span{
+    font-size: 15px;
+    color: rgb(145, 145, 145);
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.laptop_paragraph{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.laptop_paragraph_text{
+    margin-left: 15px;
+    align-items: center;
+}
+
+.laptop_paragraph img{
+    height: 125px;
+    width: 100px;
+}
+
+.laptop_paragraph_text h2{
+    font-size: 40px;
+    color: rgb(145, 145, 145);
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.laptop_paragraph_text h3{
+    font-size: 20px;
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.laptop_paragraph_text span{
+    font-size: 15px;
+    color: rgb(145, 145, 145);
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.gaming_paragraph{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.gaming_paragraph_text{
+    margin-left: 15px;
+    align-items: center;
+}
+
+.gaming_paragraph img{
+    height: 125px;
+    width: 100px;
+}
+
+.gaming_paragraph_text h2{
+    font-size: 40px;
+    color: rgb(145, 145, 145);
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.gaming_paragraph_text h3{
+    font-size: 20px;
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.gaming_paragraph_text span{
+    font-size: 15px;
+    color: rgb(145, 145, 145);
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.gaming_paragraph_text h3:hover{
+    color: rgb(255, 115, 50);
+}
+
+.laptop_paragraph_text h3:hover{
+    color: rgb(255, 115, 50);
+}
+
+.retro_paragraph_text h3:hover{
+    color: rgb(255, 115, 50);
+}
+
+.news{
+    background-color: rgb(0, 0, 37);
+    padding: 15px;
+    padding-top: 30px;
+}
+
+.news h2{
+    font-size: 40px;
+    color: rgb(255, 180, 118);
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.news h3{
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 15px;
+    cursor: default;
+    transition: color 0.3s;
+}
+
+.news h3:hover{
+    color: rgb(255, 180, 118);
+}
+
+.news span{
+    font-size: 20px;
+    color: rgb(168, 168, 168);
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.space {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px; 
+    height: 2px;
+    background-color: white;
 }
