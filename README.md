@@ -1,2 +1,2 @@
 # News Homepage
-## Check this [project!](homepage-news.netlify.app) 
+## Check this [project!](https://homepage-news.netlify.app/) 
