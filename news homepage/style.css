@@ -260,6 +260,7 @@ li{
     background-color: rgb(0, 0, 37);
     padding: 15px;
     padding-top: 30px;
+    overflow: hidden;
 }
 
 .news h2{
